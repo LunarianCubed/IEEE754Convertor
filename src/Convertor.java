@@ -2,13 +2,40 @@ public class Convertor {
     /*
         * This is a class that converts a float to it's IEEE 754 binary representation.
      */
-    public static void Convert(float num) {
-        int intBits = Float.floatToIntBits(num);
-        String binary = Integer.toBinaryString(intBits);
-        System.out.println(binary);
+
+    static StringBuilder sb = new StringBuilder();
+    static int intBits;
+    public static void Convert(double num) {
+        if(num < 0){
+            sb.append(1);
+        }else {
+            sb.append(0);
+        }
+        intBits = (int)num;
+
+
+        convertFractional(num - intBits);
+//        String binary = Integer.toBinaryString(intBits);
+//        System.out.println(binary);
     }
 
-    StringBuilder sb = new StringBuilder();
-    
+    private static void convertInteger(int num, int bias){
+
+
+    }
+    private static void convertFractional(double num){
+        double fractional = num;
+        while(fractional != 0){
+            fractional *= 2;
+            if(fractional >= 1){
+                sb.append(1);
+                fractional -= 1;
+            }else{
+                sb.append(0);
+            }
+        }
+    }
+
+
 
 }

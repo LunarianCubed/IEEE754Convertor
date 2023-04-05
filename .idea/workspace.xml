@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61794d9c-cb04-479e-8e7f-1b1b99b05338" name="Changes" comment="initialized methods in Convertor.java">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
+    <list default="true" id="61794d9c-cb04-479e-8e7f-1b1b99b05338" name="Changes" comment="03 Night">
+      <change afterPath="$PROJECT_DIR$/src/CSC4101Assignment2/Convertor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Convertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Convertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Convertor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +59,7 @@
       <workItem from="1680492659096" duration="397000" />
       <workItem from="1680539010051" duration="1206000" />
       <workItem from="1680580944580" duration="917000" />
+      <workItem from="1680718497670" duration="609000" />
     </task>
     <servers />
   </component>
